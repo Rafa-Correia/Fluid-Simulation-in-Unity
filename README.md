@@ -1,5 +1,5 @@
 
-# Fluid-Simulation-in-Unity
+# Fluid Simulation in Unity
 
 ## Description:
 
