@@ -60,7 +60,48 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\VidTools\Vis\Internal\Triangulation\Triangulator.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Path Drawer\PathDrawer.cs" />
+    <Compile Include="Assets\VidTools\Helpers\TransformHelper.cs" />
+    <Compile Include="Assets\VidTools\Vis\Draw.cs" />
+    <Compile Include="Assets\VidTools\Helpers\Maths.cs" />
+    <Compile Include="Assets\VidTools\Vis\Components\Draw\ArrowDrawer.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Path Drawer\PathDrawPool.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\DrawerBase.cs" />
+    <Compile Include="Assets\VidTools\Graph Vis\FunctionPlotter.cs" />
+    <Compile Include="Assets\VidTools\Helpers\VectorHelper.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\DrawManager.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\VisMaths.cs" />
+    <Compile Include="Assets\VidTools\Graph Vis\GraphGrid.cs" />
     <Compile Include="Assets\Scripts\FluidBehaviour.cs" />
+    <Compile Include="Assets\VidTools\Vis\Ease.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Mesh Generators\CubeMeshGenerator.cs" />
+    <Compile Include="Assets\VidTools\Helpers\IOHelper.cs" />
+    <Compile Include="Assets\VidTools\Helpers\ArrayHelper.cs" />
+    <Compile Include="Assets\VidTools\Vis\Settings Types\ArrowSettings.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\DrawMaterials.cs" />
+    <Compile Include="Assets\VidTools\Helpers\Compute Helper\ComputeHelper.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Triangulation\Polygon.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Pool.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Mesh Generators\PolygonMeshGenerator.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Mesh Generators\QuadMeshGenerator.cs" />
+    <Compile Include="Assets\VidTools\Graph Vis\GraphColours.cs" />
+    <Compile Include="Assets\VidTools\Helpers\ExtensionMethods.cs" />
+    <Compile Include="Assets\VidTools\Vis\Internal\Mesh Generators\SphereMeshGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\VidTools\Vis\Internal\Resources\UnlitColorAlpha.shader" />
+    <None Include="Assets\VidTools\Helpers\Compute Helper\Resources\NormalizeTexture.compute" />
+    <None Include="Assets\VidTools\Vis\Internal\Path Drawer\Resources\InstancedLines.shader" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\LineRounded.shader" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\UnlitPoint.shader" />
+    <None Include="Assets\VidTools\Helpers\Compute Helper\Resources\ClearTexture.compute" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\Line.shader" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\ShadedAlpha.shader" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\Quad.shader" />
+    <None Include="Assets\VidTools\Vis\Internal\Path Drawer\Resources\InstancedLinesJoins.shader" />
+    <None Include="Assets\VidTools\Helpers\Compute Helper\Resources\Copy3D.compute" />
+    <None Include="Assets\VidTools\Vis\Internal\Resources\Shaded.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

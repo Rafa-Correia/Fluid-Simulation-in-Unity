@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\azeve\\Desktop\\Fluid Sim - Side Project (Rodri)\\FSim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B45C82B8-2C01-A1FC-F752-EB5B4CA571C3}|Assembly-CSharp.csproj|c:\\users\\azeve\\desktop\\fluid sim - side project (rodri)\\fsim\\assets\\scripts\\fluidbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45C82B8-2C01-A1FC-F752-EB5B4CA571C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fluidbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FluidBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\azeve\\Desktop\\Fluid Sim - Side Project (Rodri)\\FSim\\Assets\\Scripts\\FluidBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FluidBehaviour.cs",
+              "ToolTip": "C:\\Users\\azeve\\Desktop\\Fluid Sim - Side Project (Rodri)\\FSim\\Assets\\Scripts\\FluidBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FluidBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:58:44.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
