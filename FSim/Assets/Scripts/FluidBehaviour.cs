@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using VidTools;
 using VidTools.Vis;
@@ -17,6 +19,8 @@ public class FluidBehaviour : MonoBehaviour
 
     [Header("Simulation Settings")]
     [Range(0, 1)] public float bounceCoef;
+    public float smoothingRadius;
+    public float targetDensity;
     public Vector2 boundSize;
     public Vector2 gravityDir;
 
@@ -62,29 +66,50 @@ public class FluidBehaviour : MonoBehaviour
     void updateParticle (int particle_index)
     {
         //gravity effect
-        velocities[particle_index] += gravityDir * -1;
+        velocities[particle_index] += gravityDir * -1 * Time.deltaTime;
 
         //other effects here
 
-        //predict and resolve colision with wall
-        Vector2 predictedPos = points[particle_index] + (velocities[particle_index] * Time.deltaTime);
-        if (Math.Abs((predictedPos.x)) > 8)
+        //resolve colision with wall
+        points[particle_index] += (velocities[particle_index] * Time.deltaTime);
+
+        Vector2 halfBounds = boundSize / 2 - Vector2.one * particleSize;
+        if (Math.Abs((points[particle_index].x)) > halfBounds.x)
         {
-            float newX = 8 * Math.Sign(predictedPos.x);
-            predictedPos.x = newX;
+            points[particle_index].x = halfBounds.x * Math.Sign(points[particle_index].x);
             velocities[particle_index].x *= -1 * bounceCoef;
-            if (Math.Abs(velocities[particle_index].x) < min_vel_on_colision) velocities[particle_index].x = 0;
         }
 
-        if(Math.Abs((points[particle_index] + (velocities[particle_index] * Time.deltaTime)).y) > 4.5f)
+        if(Math.Abs((points[particle_index]).y) > halfBounds.y)
         {
-            float newY = 4.5f * Math.Sign(predictedPos.y);
-            predictedPos.y = newY;
+            points[particle_index].y = halfBounds.y * Math.Sign(points[particle_index].y);
             velocities[particle_index].y *= -1 * bounceCoef;
-            if (Math.Abs(velocities[particle_index].y) < min_vel_on_colision) velocities[particle_index].y = 0;
+        }
+    }
+
+    public float calculate_density (int particle_index)
+    {
+        float density = 0;
+        const float particle_mass = 1.0f;
+
+        for(int i = 0; i < n_points_priv; i++)
+        {
+            if (i == particle_index) continue;
+            float dst = (points[particle_index] - points[i]).magnitude;
+            if(dst > smoothingRadius) continue;
+
+            density += smoothing_kernel(dst) * particle_mass;
+
         }
 
-        //move particles
-        points[particle_index] = predictedPos;
+        return density;
+    }
+
+    private float smoothing_kernel (float dst)
+    {
+        float volume = (float)(Math.PI * Math.Pow(dst, 4) / 2);
+        float value = Math.Max(0, dst);
+
+        return value * value * value / volume;
     }
 }
