@@ -1,0 +1,1154 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/azeve/Desktop/Fluid Sim - Side Project (Rodri)/FSim
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58958
+Successfully changed project path to: C:/Users/azeve/Desktop/Fluid Sim - Side Project (Rodri)/FSim
+C:/Users/azeve/Desktop/Fluid Sim - Side Project (Rodri)/FSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22880]  Target information:
+
+Player connection [22880]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2705042773 [EditorId] 2705042773 [Version] 1048832 [Id] WindowsEditor(7,Laptop-Rafael) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22880]  * "[IP] 192.168.1.172 [Port] 0 [Flags] 2 [Guid] 2705042773 [EditorId] 2705042773 [Version] 1048832 [Id] WindowsEditor(7,Laptop-Rafael) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 19.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/azeve/Desktop/Fluid Sim - Side Project (Rodri)/FSim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8037 MB
+    Driver:   30.0.101.1660
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012704 seconds.
+- Loaded All Assemblies, in  0.971 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1641ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.031 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 2032ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (384.2 KB). Loaded Objects now: 4548.
+Memory consumption went from 148.5 MB to 148.2 MB.
+Total: 4.818300 ms (FindLiveObjects: 0.373700 ms CreateObjectMapping: 0.207600 ms MarkObjects: 3.920300 ms  DeleteObjects: 0.314700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1987992.730610 seconds.
+  path: Assets/Scripts/FluidBehaviour.cs
+  artifactKey: Guid(a425fdb1402d8c34589f9ac8cbc01268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FluidBehaviour.cs using Guid(a425fdb1402d8c34589f9ac8cbc01268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d2d6dbde186b28b097f2f4c845dac5e') in 0.004831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.384 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 2202ms
+	BeginReloadAssembly (787ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (544ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (533ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 7.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (359.6 KB). Loaded Objects now: 4547.
+Memory consumption went from 142.4 MB to 142.0 MB.
+Total: 10.638900 ms (FindLiveObjects: 0.924500 ms CreateObjectMapping: 0.476600 ms MarkObjects: 8.846600 ms  DeleteObjects: 0.388700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.565 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.174 seconds
+Domain Reload Profiling: 2736ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2175ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.4 KB). Loaded Objects now: 4551.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 3.406100 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.153300 ms MarkObjects: 2.591900 ms  DeleteObjects: 0.324800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.723 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.350 seconds
+Domain Reload Profiling: 2071ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.4 KB). Loaded Objects now: 4555.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 3.701900 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.163900 ms MarkObjects: 2.905100 ms  DeleteObjects: 0.225500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 1735ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.5 KB). Loaded Objects now: 4559.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 4.425600 ms (FindLiveObjects: 0.754500 ms CreateObjectMapping: 0.465000 ms MarkObjects: 2.945200 ms  DeleteObjects: 0.259100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.541 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.954 seconds
+Domain Reload Profiling: 2492ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.6 KB). Loaded Objects now: 4563.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 4.140200 ms (FindLiveObjects: 0.390900 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.346900 ms  DeleteObjects: 0.248200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.719 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.340 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.6 KB). Loaded Objects now: 4567.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 4.044300 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.165000 ms MarkObjects: 3.196700 ms  DeleteObjects: 0.340500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.452 seconds
+Domain Reload Profiling: 3014ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1025ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (742ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 10.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.5 KB). Loaded Objects now: 4571.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 7.962400 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.209100 ms MarkObjects: 6.837500 ms  DeleteObjects: 0.526900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.709 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.944 seconds
+Domain Reload Profiling: 2650ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1944ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Script is not up to date after domain reload: guid(a425fdb1402d8c34589f9ac8cbc01268) path("Assets/Scripts/FluidBehaviour.cs") state(2)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.4 KB). Loaded Objects now: 4574.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 3.671200 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.901400 ms  DeleteObjects: 0.242800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.404 seconds
+Domain Reload Profiling: 2021ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.3 KB). Loaded Objects now: 4579.
+Memory consumption went from 142.7 MB to 142.3 MB.
+Total: 4.731600 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.151200 ms MarkObjects: 3.666900 ms  DeleteObjects: 0.518400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.520 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.366 seconds
+Domain Reload Profiling: 2884ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2367ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (997ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (740ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (356.5 KB). Loaded Objects now: 4583.
+Memory consumption went from 142.7 MB to 142.3 MB.
+Total: 3.292500 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.157200 ms MarkObjects: 2.571200 ms  DeleteObjects: 0.224600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ArrowSettings.cs: 304fd55359ab1620598e02dd81c03219 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VisMaths.cs: bfe787ff15edd98326f7971ae9e09e04 -> 
+  custom:scripting/monoscript/fileName/FluidBehaviour.cs: bb7cb70b0c00c4615ea7fc651f01c110 -> 
+  custom:scripting/monoscript/fileName/GraphColours.cs: 80bf2fa9400a13ae6b10824befbc3ae1 -> 
+  custom:scripting/monoscript/fileName/GridEditor.cs: f4a62cded9d2f31ea0045e272777560a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ArrayHelper.cs: 8743b9089ff88462a62690119b26d5c4 -> 
+  custom:scripting/monoscript/fileName/VectorHelper.cs: e2c63cb286fcd4c5d70f548ba724eb44 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 7fc3b38c288311651540771c5a66a9dd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GraphGrid.cs: 29a740e0269aeb30f858a6d9f6872d6e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DrawManager.cs: cec44b4c2cd804c217ee710633368924 -> 
+  custom:scripting/monoscript/fileName/Draw.cs: 0a2f53ab4d5eeebe12267e1dfb179001 -> 
+  custom:scripting/monoscript/fileName/Polygon.cs: bd937b1e4ce49990e43d3a3e2f05a6b3 -> 074eefc3142862da475643e41c179080
+  custom:scripting/monoscript/fileName/Triangulator.cs: 9e7ee25c1884417d551d6943a71394e5 -> d867a9a7a8385ef82ff357feb70c59d4
+  custom:scripting/monoscript/fileName/Ease.cs: 0c54cd5c7f5329d62a67bb3984adb577 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PathDrawer.cs: 67f8d8e72263ceae87c72297107f1a95 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/QuadMeshGenerator.cs: e648804f55c2634523d28a889d58ea85 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CubeMeshGenerator.cs: aaddb8fb0795c1d534c5f87a462474b8 -> 
+  custom:scripting/monoscript/fileName/ComputeHelper.cs: 597e17e32c8710d4bc90b847d71719f5 -> 
+  custom:scripting/monoscript/fileName/DrawerBase.cs: 3dbcc304847a77b7b8e5dfb3809d1a12 -> 
+  custom:scripting/monoscript/fileName/DrawMaterials.cs: 751e0d6c8e7397347d5bfb75a4479c2e -> 
+  custom:scripting/monoscript/fileName/Maths.cs: 0bf46472d0faa086cd48ee93be1a1834 -> 
+  custom:scripting/monoscript/fileName/SphereMeshGenerator.cs: 33311bc2918761ad93ba77f69377670b -> 
+  custom:scripting/monoscript/fileName/FunctionPlotter.cs: 756655855119a0cab5d868b3fb474847 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PolygonMeshGenerator.cs: ff4b5c9e7e4683fbd248ecd0879ac6ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IOHelper.cs: 40da2c3c8ddc5a3f653700b95e252565 -> 
+  custom:scripting/monoscript/fileName/PathDrawPool.cs: ccea1c4df46178cac36fc52783b6601f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3bd5eddd55ae523205571ead983fd407 -> 
+  custom:scripting/monoscript/fileName/Pool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 82c9a0b84e81c628ca889ceadd0bd2bc -> 
+  custom:scripting/monoscript/fileName/TransformHelper.cs: 00a5a0f8b313811e08b1b4177191402c -> 
+  custom:scripting/monoscript/fileName/ArrowDrawer.cs: e8ba205eb200ab88a6c4cb5f33808ec5 -> 
