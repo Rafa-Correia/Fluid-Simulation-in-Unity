@@ -8,12 +8,19 @@ using VidTools.Vis;
 
 public class FluidBehaviour : MonoBehaviour
 {
+    [Header("Initial Settings")]
     public int numPoints;
-    public float particleSize;
     public float particleSpacing;
-    public float bounceCoef;
+
+    [Header("Visualization Settings")]
+    public float particleSize;
+
+    [Header("Simulation Settings")]
+    [Range(0, 1)] public float bounceCoef;
     public Vector2 boundSize;
     public Vector2 gravityDir;
+
+    [Header("Arrays (temporary)")]
     public Vector2[] points;
     public Vector2[] velocities;
 
